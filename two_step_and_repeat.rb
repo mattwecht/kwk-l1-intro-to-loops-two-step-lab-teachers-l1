@@ -46,9 +46,10 @@ def how_many_steps?
 end
 
 def break_dance
-steps = 0
-loop do
-steps += 1
-puts steps
-if (steps % 2 == 0)
-puts 'Left'
+  steps = 0
+  loop do
+  steps += 1
+  puts steps
+  if (steps % 2 == 0)
+  puts 'Left'
+  
