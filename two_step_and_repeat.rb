@@ -52,4 +52,13 @@ def break_dance
   puts steps
   if (steps % 2 == 0)
   puts 'Left'
-  
+  else
+  puts 'Right'
+end
+
+sleep(0.5)
+if steps == 6
+  break
+end
+end
+end
